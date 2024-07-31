@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Imaginarium", "Imaginarium\Imaginarium.csproj", "{453F8F05-8E98-456F-9B00-84303D084C7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Imaginarium.API", "Imaginarium\Imaginarium.API.csproj", "{453F8F05-8E98-456F-9B00-84303D084C7C}"
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "Imaginarium.Client", "Imaginarium.Client\Imaginarium.Client.esproj", "{50709066-B2B4-4077-9364-80EF0FDC778B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imaginarium.Data", "Imaginarium.Data\Imaginarium.Data.csproj", "{8CD00362-32B8-4916-808A-65946A3D8A57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imaginarium.Infrastructure", "Imaginarium.Infrastructure\Imaginarium.Infrastructure.csproj", "{D0150604-8BDF-4C98-96D1-BDE1732A0AFC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +27,14 @@ Global
 		{50709066-B2B4-4077-9364-80EF0FDC778B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50709066-B2B4-4077-9364-80EF0FDC778B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{50709066-B2B4-4077-9364-80EF0FDC778B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{8CD00362-32B8-4916-808A-65946A3D8A57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CD00362-32B8-4916-808A-65946A3D8A57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CD00362-32B8-4916-808A-65946A3D8A57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CD00362-32B8-4916-808A-65946A3D8A57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0150604-8BDF-4C98-96D1-BDE1732A0AFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0150604-8BDF-4C98-96D1-BDE1732A0AFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0150604-8BDF-4C98-96D1-BDE1732A0AFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0150604-8BDF-4C98-96D1-BDE1732A0AFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
