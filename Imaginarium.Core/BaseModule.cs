@@ -3,7 +3,7 @@ using Imaginarium.Core.Mapping;
 
 namespace Imaginarium.Core
 {
-    public class BaseModule : Module
+    public abstract class BaseModule : Module
     {
         protected override void Load(ContainerBuilder builder)
         {

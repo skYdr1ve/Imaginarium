@@ -43,10 +43,6 @@ app.Run();
 
 void RegisterModules(HostBuilderContext hostBuilderContext, ContainerBuilder builder)
 {
-    builder.RegisterType<HttpContextAccessor>()
-                    .As<IHttpContextAccessor>()
-                    .SingleInstance();
-
     builder.RegisterModule(new InfrastructureModule());
     builder.RegisterModule(new DomainModule());
 }
