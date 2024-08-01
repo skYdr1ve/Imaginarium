@@ -5,12 +5,10 @@ using Imaginarium.Infrastructure.Mapping;
 
 namespace Imaginarium.Infrastructure
 {
-    public class InfrastructureModule : BaseModule
+    public class InfrastructureModule : Module
     {
         protected override void Load(ContainerBuilder builder)
         {
-            base.Load(builder);
-
             builder.RegisterType<MappingProfile>().AsSelf();
             builder.Register(c => new MapperConfiguration(cfg =>
             {

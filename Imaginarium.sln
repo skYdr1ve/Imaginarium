@@ -5,11 +5,13 @@ VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "Imaginarium.Client", "Imaginarium.Client\Imaginarium.Client.esproj", "{50709066-B2B4-4077-9364-80EF0FDC778B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Imaginarium.Data", "Imaginarium.Data\Imaginarium.Data.csproj", "{8CD00362-32B8-4916-808A-65946A3D8A57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Imaginarium.Domain", "Imaginarium.Data\Imaginarium.Domain.csproj", "{8CD00362-32B8-4916-808A-65946A3D8A57}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Imaginarium.Infrastructure", "Imaginarium.Infrastructure\Imaginarium.Infrastructure.csproj", "{D0150604-8BDF-4C98-96D1-BDE1732A0AFC}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Imaginarium.Api", "Imaginarium.Api\Imaginarium.Api.csproj", "{4C0F0F77-21D6-4384-8332-378D94BA1691}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Imaginarium.Core", "Imaginarium.Core\Imaginarium.Core.csproj", "{6FA446F7-9783-4E47-811F-52C23F6B3D6B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{4C0F0F77-21D6-4384-8332-378D94BA1691}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C0F0F77-21D6-4384-8332-378D94BA1691}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C0F0F77-21D6-4384-8332-378D94BA1691}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FA446F7-9783-4E47-811F-52C23F6B3D6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FA446F7-9783-4E47-811F-52C23F6B3D6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FA446F7-9783-4E47-811F-52C23F6B3D6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FA446F7-9783-4E47-811F-52C23F6B3D6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

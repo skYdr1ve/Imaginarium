@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace Imaginarium.Data
+namespace Imaginarium.Domain
 {
     public class ImaginariumDbContext : DbContext
     {

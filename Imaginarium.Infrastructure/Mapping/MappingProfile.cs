@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using Imaginarium.Infrastructure.Mapping.Interfaces;
+using Imaginarium.Core.Mapping;
 
 namespace Imaginarium.Infrastructure.Mapping
 {

@@ -1,7 +1,7 @@
-﻿using Imaginarium.Data.Interfaces;
+﻿using Imaginarium.Domain.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
-namespace Imaginarium.Data
+namespace Imaginarium.Domain
 {
     public class Repository<T> : IRepository<T> where T : class
     {

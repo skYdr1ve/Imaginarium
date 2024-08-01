@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 
-namespace Imaginarium.Infrastructure.Mapping.Interfaces
+namespace Imaginarium.Core.Mapping
 {
     public interface IMapping
     {
