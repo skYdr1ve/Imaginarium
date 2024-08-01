@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Imaginarium.Data\Imaginarium.Domain.csproj" />
+    <ProjectReference Include="..\Imaginarium.Domain\Imaginarium.Domain.csproj" />
     <ProjectReference Include="..\Imaginarium.Infrastructure\Imaginarium.Infrastructure.csproj" />
   </ItemGroup>
 
