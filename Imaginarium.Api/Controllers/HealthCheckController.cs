@@ -1,5 +1,5 @@
 using AutoMapper;
-using Imaginarium.Data;
+using Imaginarium.Domain;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Imaginarium.Controllers

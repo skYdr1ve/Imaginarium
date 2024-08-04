@@ -22,6 +22,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddHttpContextAccessor();
+
 builder.Host.ConfigureContainer<ContainerBuilder>(RegisterModules);
 
 var app = builder.Build();
